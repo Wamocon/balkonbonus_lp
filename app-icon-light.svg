@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Balkonbonus App Icon">
+  <defs>
+    <linearGradient id="bgLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ecfdf5"/>
+      <stop offset="100%" stop-color="#d1fae5"/>
+    </linearGradient>
+    <linearGradient id="greenLight" x1="15%" y1="0%" x2="85%" y2="100%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="55%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
+    <linearGradient id="greenMid" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" rx="112" fill="url(#bgLight)"/>
+
+  <!-- Lightning bolt (Balkonbonus brand icon) -->
+  <path d="M288 80L160 288h80l-32 144 160-224h-80l32-128z" fill="url(#greenLight)" opacity="0.95"/>
+
+  <!-- Energy bars -->
+  <line x1="144" y1="428" x2="372" y2="428" stroke="url(#greenLight)" stroke-width="3" stroke-linecap="round" opacity="0.38"/>
+  <rect x="156" y="374" width="40" height="54" rx="10" fill="url(#greenMid)" opacity="0.68"/>
+  <rect x="210" y="344" width="40" height="84" rx="10" fill="url(#greenMid)" opacity="0.84"/>
+  <rect x="264" y="356" width="40" height="72" rx="10" fill="url(#greenMid)"/>
+  <rect x="318" y="326" width="40" height="102" rx="10" fill="url(#greenLight)" opacity="0.92"/>
+</svg>
